@@ -1,28 +1,89 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en-US">
+
 	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
+		
+		<title>Simon Chau's Webpage</title>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Resume Website for Simon Chau">
+		<meta name="keywords" content="Simon Chau Computer Engineer Website">
+		<meta name="author" content="Simon Chau">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="style.css" rel="stylesheet" type="text/css"></link>
+		<link href="animate.css" rel="stylesheet">
+				
 	</head>
+	
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<header>
+			<ul class="nav">
+				<li><a href="mailto:simon.chau@outlook.com"> EMAIL </a></li>
 			</ul>
-		</footer>
+			
+			<div class="photo">
+				<p>
+					<img src="./images/Simon.jpg" class="simon">
+					<h1> Simon Chau</h1>
+					<h2> Graduated from University of California, Riverside </h2>
+					<h2> Bachelor's Degree of Science in Computer Engineering</h2>
+					<h2> Phone: (909) 720 - 6100 </h2>
+					
+					<div class="button">
+						<a href="./files/Simon Chau_Resume.pdf" class="btn btn-one"> Resume </a>
+					</div>
+					<div class="social">
+						<a href="https://www.facebook.com/simon.chau.7" target="_blank"><img src="http://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_(square).png" width="25" height="25"></a> 
+						<a href="https://plus.google.com/u/0/+SimonChau" target="_blank"><img src="https://developers.google.com/%2B/images/branding/g%2B128.png" width="25" height="25"></a> 
+						<a href="https://www.linkedin.com/in/simon-chau/" target="_blank"><img src="http://www.douglashwang.com/assets/img/link/linkedin.png" width="25" height="25"></a>
+				</div>
+				</p>
+			</div>
+	
+			<div class="bg-1">
+				<div class="foo">
+					<div class="paragraph1">
+						<h2 class="title">About Me</h2>
+							<p>I graduated from  <a href="http://www.ucr.edu/">University of California, Riverside</a> as a Computer Engineering major.
+							I have done a few projects that dealt with embedded systems.  I feel rewarded when a long task is debugged and completely finished.
+							I am currently trying to find an internship or job to gain real world experience and hone my knowledge.  Whether it is coding, programming, or even IT, I want to be exposed 
+							to as much knowledge and information.  When there is an objective or goal that I need to complete, I try to finish it in a more efficient manner.  I am currently working 
+							towards a CompTIA A+ Certification.  Besides being a coder, I am also a gamer, amateur photographer, and enjoy cool cinematography techniques.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="bg-2">
+				<div class = "foo">
+					<div class="paragraph2">
+						<h2 class="title">Projects</h2>
+							<h3>Jelly Jumper</h3>
+							<p> In this Unity made game, my friends/colleagues and myself attempt to create a game.  The game was made for a Hack-A-Thon at UCR.  During the process of making the game
+								my part was to ensure that platforms were either fake or real.  The game was created from a skeleton code that we were allowed to use.  From that skeleton code
+								we were able to adjust and change what we needed to make the game work as intended.  We competed for the category of "Memory" and won first place.  Since this was our
+								first time competing/creating, we did not have much knowledge to create a fully developed game; however it was a fun experience.  
+								Although a very simplistic game, there was a bit of a learning curve to understand Unity and how to program within it.</p>
+							<h3><a href="https://youtu.be/u1esHqUuufk">Smart Window Curtain</a></h3>
+							<p> This was a projected created with embedded systems.  I programmed a miniaturized model window curtain roller that could be controlled manually or wirelessly via Bluetooth.
+								The goal was to simulate a smart home where it would conserve electricity by opening windows if it was bright outside or close when dark outside.  To create this project
+								I programmed with ATmega 1284 8-bit AVR Microcontrollers and stepper motors.  For light detection, I used an IR sensor to help determine the direction the curtains should move.</p>
+							<h3><a href="https://youtu.be/dbx5JvcH9dc">Line Runner</a></h3>
+							<p> In this project I created a mini puzzle/rhythm game with embedded systems.  The player needs to move vertically up with a reoccurring pattern.  As I was creating the game, I had unintentionally added
+								a different feature which in turn affected the final version of the game.  I controlled the LEDs to have a set speed at different levels (3 levels in total).  The rules of the game
+								is to traverse the LED matrix from the bottom to the top while not touching the reoccurring pattern.  I programmed with ATmega 1284 8-bit AVR Microcontrollers.  
+								After completion, the LED matrix would light up in green.</p>
+					</div>
+				</div>
+			</div>		
+				
+		</header>
+		
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+		<script src="scroll.js"></script>
+		
 	</body>
+	
 </html>
