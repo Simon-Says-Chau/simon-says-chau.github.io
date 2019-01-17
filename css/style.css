@@ -28,6 +28,7 @@ div {
     overflow: hidden;
     width: 100%;
     background-color: #333;
+    font-family: Open Sans, Arial;
 }
 
 .menu {
@@ -74,12 +75,14 @@ div {
 	margin-top: 150px;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	font-family: "Arial", sans-serif;
 }
 
 .paragraph2
 {
 	padding-top: 50px;
 	padding-bottom: 175px;
+	font-family: "Arial", sans-serif;
 }
 
 p
@@ -119,10 +122,11 @@ h1
 {
 	color: white;
 	text-transform: uppercase;
-	font-size: 70px;
+	font-size: 32px;
 	text-align: center;
 	margin-top: 75px;
 	max-width: 1000px;
+	font-family: Open Sans, Arial;
 }
 
 h2
@@ -133,6 +137,7 @@ h2
 	text-align: center;
 	padding-left: 10px;
 	max-width: 1000px;
+	font-family: Open Sans, Arial;
 }
 
 h3
@@ -143,6 +148,7 @@ h3
 	text-align: left;
 	text-decoration: underline;
 	padding-left: 10px;
+	font-family: Open Sans, Arial;
 }
 
 .title
@@ -179,13 +185,13 @@ h3
 
 .btn-one
 {
-	background-color: darkorange;
-	font-family: "Roboto", sans-serif;
+	background-color: dimgray;
+	font-family: "Tahoma", sans-serif;
 }
 
 .btn-two
 {
-	font-family: "Roboto", sans-serif;
+	font-family: "Tahoma", sans-serif;
 }
 
 .btn-two:hover

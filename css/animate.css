@@ -1602,3 +1602,70 @@
 .fadeMe.none {
   display:none
 }
+
+.fly-in-text {
+	list-style: none;
+	text-align: center;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) transalateY(-50%);
+}
+
+.fly-in-text li {
+	display: inline-block;
+	margin-right: 50px;
+	font-family: Open Sans, Arial;
+	font-weight: 100;
+	font-size: 45px;
+	color: #fff;
+	opacity: 1;
+	transition: all 1.75s ease;
+}
+
+.fly-in-text li:last-child {
+	margin-right: 0;
+}
+
+.fly-in-text.hid li:{
+	opacity: 0;
+}
+
+.fly-in-text.hid li:nth-child(1) {
+	transform: translateX(0px) translateY(-150px);
+}
+
+.fly-in-text.hid li:nth-child(2) {
+	transform: translateX(0px) translateY(150px);
+}
+
+.fly-in-text.hid li:nth-child(3) {
+	transform: translateX(0px) translateY(150px);
+}
+
+.fly-in-text.hid li:nth-child(4) {
+	transform: translateX(0px) translateY(150px);
+}
+
+.fly-in-text.hid li:nth-child(5) {
+	transform: translateX(0px) translateY(150px);
+}
+
+.fly-in-text.hid li:nth-child(6) {
+	transform: translateX(0px) translateY(150px);
+}
+
+.fly-in-text.hid li:nth-child(7) {
+	transform: translateX(0px) translateY(150px);
+}
+
+.fly-in-text.hid li:nth-child(8) {
+	transform: translateX(0px) translateY(150px);
+}
+
+.fly-in-text.hid li:nth-child(9) {
+	transform: translateX(0px) translateY(150px);
+}
+
+.fly-in-text.hid li:nth-child(10) {
+	transform: translateX(0px) translateY(-150px);
+}
